@@ -1,0 +1,76 @@
+<!-- 1) sololearn module 2 quiz ის ჩათვლით
+      2) შექმენით ფორმა, სადაც მომხმარებელი შეიტანს სახელს, გვარს, ემაილს, პაროლს, და იქნება რამდენიმე select,
+       ერთი იქნება საჭმელების ჩამონათვალი, მეორეში სპორტის სხვადასხვა სახეების ჩამონათვალი, მესამეში იქნება მანქანების ჩამონათვალი
+        ბოლოს იქნება ერთი submit ღილაკი რომელიც ამ ყველა ინფორმაციას გადააგზავნის ბაზაში, კოდი დაწერეთ სწორად,
+       სტრუქტურის დაცვით, ატრიბუტების გამოყენებით(for, id, name, value) და ასევე დაამატეთ label ები -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+ <from>
+      <label for="Name">Enter name:</label>
+      <input type="text" id ="Name" name="Name">
+      
+       <br>
+       <br>
+      
+       <label for="Surname">Enter surname:</label>
+      <input type="text" id = "surname" name ="surname">
+      <br>
+      <br>
+
+       <label for="Email">Enter Email:</label>
+      <input type="text" id="Email" name=" Email ">
+      <br>
+      <br>
+      
+       <label for="password">Enter password:</label>
+      <input type="text" id="password" name="Password">
+       <br>
+       <br>
+       <select>
+        
+            
+            <option value="ostri">ostri</option>
+            <option value="chaxoxbili">chaxoxbili</option>
+            <option value="mwvadi">mwvadi</option>
+            <option value="shaurma">shaurma</option>
+
+
+       </select>
+       <br>
+       <br>
+
+       <select>
+           <option value="kalataburti">kalatburti</option> 
+           <option value="fexburti">fexburti</option>
+           <option value="chogburti">chogburti</option>
+           <option value="ragbi">ragbi</option>
+       </select>
+       <br>
+       <br>
+
+       <select>
+            <option value="porche">porche</option>
+            <option value="lamborgini">lamborgini</option>
+            <option value="ferari">ferari</option>
+            <option value="bwm">bmw</option>
+       </select>
+       <br>
+       <br>
+       <input type="submit">
+      
+      
+ </from>
+</body>
+</html>
