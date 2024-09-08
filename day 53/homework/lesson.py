@@ -15,11 +15,27 @@
 # მოგზაურობა თუ მომავალშ
 
 def droshi_mogzauroba():
-   age = int(input("enter your age: "))
-   year = int(input("enter year: "))
-   time_travel = int(input("how long do you want to travel for?: "))
-   future = input("do you want to travel in the future: ")
-  if 
+   age = (input("enter your age: "))
+   year = (input("enter year: "))
+   time = (input("how long do you want to travel for?: "))
+
+   future = input("do you want to travel in the future y/n : ")
+   if future == "y":
+     print(year + time)
+   else:
+    if future == "n":
+     print(age + time)
+
+droshi_mogzauroba()
+ 
+   
+   
+
+
+    
+     
+     
+
    
    
 
