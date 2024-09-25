@@ -1,0 +1,136 @@
+body{
+    background-color:rgb(44, 8, 8) ;
+    border: 5px black solid ;
+}
+
+a{
+   text-decoration: none;
+
+}
+
+
+nav{
+    text-align: center;
+    
+ 
+}
+
+.red{
+    width: 300px;
+    border-radius: 15px;
+    float: right;
+    margin-left: 10px;
+    border:10px rgb(9, 19, 161) solid;
+
+}
+
+#tbilisi{
+    
+  text-align: center;
+  border: 5px rgb(221, 11, 91) solid;
+  color: orangered;
+  background-color: rgb(85, 23, 23);
+  border-radius: 5px;
+    
+
+
+}
+#intro{
+color: rgb(0, 38, 255);
+font-size: 18px;
+font-family: 'sans-serif';
+text-shadow: 2px 4px 6px;
+line-height: 1.4;
+text-decoration: underline;
+font-weight: bold;
+}
+
+
+.Georgia{
+    text-align: center;
+    color: rgb(221, 9, 9);
+    background-color: rgb(49, 15, 3);
+    border: 5px black solid;
+    border-radius: 5px;
+}
+
+#history{
+color: rgb(94, 255, 0);
+font-family: 'sans-serif';
+text-shadow: 2px 4px 6px;
+line-height: 1.5;
+text-decoration: underline;
+font-weight: bold;
+position: relative;
+left: 10px;
+
+
+}
+
+#bro{
+    width: 300px;
+    border-radius: 15px;
+    float: left;
+    margin-left: 10px;
+    border:10px rgb(9, 19, 161) solid;
+    
+
+}
+iframe{
+border-radius: 15px;
+
+}
+
+#Georgia{
+    float: left;
+    margin-left: 16px;
+    border-radius: 15px;
+    border: 10px solid greenyellow;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: underline;
+    text-decoration: brown;
+   
+}
+
+#text{
+color: rgb(236, 183, 8);
+font-size: 18px;
+font-family: 'sans-serif';
+text-shadow: 2px 4px 6px;
+line-height: 1.4;
+text-decoration: underline;
+font-weight: bold;
+}
+#red{
+color: #661405;
+font-size: 36px;
+font-family: 'sans-serif';
+text-align: center;
+text-shadow: 2px 2px 5px;
+letter-spacing: 2px;
+border: 5px rgb(221, 11, 91) solid;
+color: orangered;  
+background-color: rgb(85, 23, 23);
+border-radius: 5px;
+}
+#class{
+    display: flex;
+  flex-direction: row;
+
+  
+  padding-left: 1000px;
+  padding-top: 10px;
+
+  gap: 20px;
+    
+  
+}
+
+
+
